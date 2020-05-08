@@ -2,7 +2,7 @@
 #   Programming Assignment 4
 #     Prob-5.py
 
-# <YOUR NAME>
+# <Stephen Guild>
 
 def main():
     try:
