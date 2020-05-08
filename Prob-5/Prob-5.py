@@ -5,7 +5,12 @@
 # <YOUR NAME>
 
 def main():
-    x = eval(2)
-    print("x:", x)
+    try:
+        x = eval(2)
+        print("x:", x)
+    except TypeError:
+        print("\nA TypeError has occured\n")
+    except:
+        print("\nUnkown Exception has occured\n")
 
 main()
